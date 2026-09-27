@@ -147,7 +147,7 @@ export const siteConfig: SiteConfig = {
   // 1. SITE BRANDING, TITLE & FAVICON
   // ----------------------------------------------------------------------------
   name: "DEV.LOG",
-  logoLetter: "D",
+  logoLetter: "J",
   title: "DEV.LOG — Personal Dev Blog & Digital Garden",
   description:
     "A high-performance personal developer blog and digital notebook crafted with Astro, strict TypeScript, and Liquid Glass UI.",
@@ -159,17 +159,16 @@ export const siteConfig: SiteConfig = {
   // 2. AUTHOR PROFILE (SINGLE AUTHOR FOR ENTIRE SITE)
   // ----------------------------------------------------------------------------
   author: {
-    name: "Alex Morgan",
-    role: "Software Engineer & Creative Developer",
+    name: "Jocelin Bernal",
+    role: "Analista de Ciberseguridad y Desarrolladora Creativa",
     avatar: "/images/avatar.jpg", // Place your photo in public/images/avatar.jpg
     bio: "Frontend engineer and creative developer fascinated by the craft of building blazingly fast web apps, liquid glass design systems, and resilient software architectures.",
-    location: "San Francisco, CA",
+    location: "Ciudad de México",
     status: "Building the future of spatial web interfaces",
     social: {
-      github: "https://github.com/nivinvysakh/devlog-astro-template",
-      twitter: "https://twitter.com",
-      linkedin: "https://linkedin.com",
-      email: "alex@example.com",
+      github: "https://github.com/jocelinbernal",
+      linkedin: "www.linkedin.com/in/jocelin-bernal",
+      email: "jocelinbernal33@gmail.com",
     },
   },
 
