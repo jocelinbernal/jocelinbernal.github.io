@@ -32,7 +32,7 @@ const basePath = isGitHubPages ? githubBase : '/';
 
 // https://astro.build/config
 export default defineConfig({
-  site: siteUrl,
+  site: "https://jocelinbernal.github.io",
   base: basePath,
   markdown: {
     remarkPlugins: [remarkReadingTime],
