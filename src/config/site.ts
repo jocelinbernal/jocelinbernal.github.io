@@ -14,23 +14,22 @@
  */
 
 export interface SiteAuthor {
-  /** Your full name (e.g., "Alex Morgan") */
+  /** Your full name (e.g., "Jocelin Bernal") */
   name: string;
-  /** Your job title or tagline (e.g., "Software Engineer & Creative Developer") */
+  /** Your job title or tagline (e.g., "Analista de Ciberseguridad y Desarrolladora Creativa") */
   role: string;
   /** Path to your avatar photo in public/ (e.g., "/images/avatar.jpg") */
   avatar: string;
   /** Short personal bio displayed on the home page, about page, and article footers */
   bio: string;
-  /** Your current city / location (e.g., "San Francisco, CA") */
+  /** Your current city / location (e.g., "Cuidad de Mexico") */
   location?: string;
   /** Short status pill shown on your profile card */
   status?: string;
   /** Your social and contact links */
   social: {
-    github?: string;
-    twitter?: string;
-    linkedin?: string;
+    github?: string; href: "https://github.com/jocelinbernal"
+    linkedin?: string; "www.linkedin.com/in/jocelin-bernal"
     email?: string;
   };
 }
